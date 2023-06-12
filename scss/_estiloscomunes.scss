@@ -1,0 +1,121 @@
+body {
+
+    font-family: $font-familia;
+    background-color: $color-terciario;
+    color: $color-fondo;
+}
+
+h1,
+h2,
+h3,
+h5
+
+{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+h1 {
+
+    color: $color-fondo;
+    font-size: $font-titulo;
+    font-family: $font-familia;
+    animation: backInDown;
+    animation-duration: 1s;
+
+
+}
+
+.grid-meganeshokudo {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    text-align: center;
+    grid-template-columns: auto;
+    background-image: url(../img/gafasopacidadbaja.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 800px;
+
+}
+
+h2 {
+
+    color: $color-terciario;
+    font-size: $font-subtitulo;
+    font-family: $font-familia;
+    background-color: $color-fondo;
+
+}
+
+h3 {
+    font-family: $font-familia;
+    color: $color-terciario;
+    font-size: $font-size-l;
+}
+
+.grid-h2 {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+  }
+
+h5 {
+
+    color: $color-fondo;
+    font-family: $font-familia;
+   
+}
+
+ul {
+
+    list-style: none;
+    font-family: $font-familia;
+    text-decoration: none;
+
+}
+
+ol {
+
+    list-style: none;
+    font-family: $font-familia;
+}
+
+li {
+    list-style: none;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.nav-link,
+.nav-link.active,
+.navbar-nav .nav-link.active {
+    color: $color-fondo;
+
+    &:hover {
+        color: $color-primario;
+    }
+}
+
+.navbar-toggler {
+    background-color: $color-terciario;
+}
+
+.a href {
+
+    text-decoration: none;
+
+}

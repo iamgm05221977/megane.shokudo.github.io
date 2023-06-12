@@ -1,0 +1,41 @@
+/*Paleta de Colores*/
+
+$color-primario: #3acdcc;
+$color-secundario: #4CAF50;
+$color-terciario: white;
+$color-grisclaro: #0000001a;
+$color-fondo: #000000;
+
+
+/*Fuentes*/
+
+$font-familia: 'Poppins', sans-serif;
+$font-titulo: 10vw;
+$font-subtitulo: 5vw;
+
+/*Tamaños Fuentes extras*/
+
+$font-size-s: 20px;
+$font-size-m: 60px;
+$font-size-l: 80px;
+$font-size-xl: 100px;
+
+
+/*Animacion*/
+
+$animation: rubberBand;
+$animation-duration: 1s;
+
+/*Padding*/
+
+$padding-xs: 10px;
+$padding-s: 20px;
+$padding-m: 30px;
+$padding-l: 50px;
+$padding-xl: 80px;
+
+/*Pantallas*/
+
+$pantalla-m: 768px;
+$pantalla-l:  992px;
+$pantalla-xl: 1200x;

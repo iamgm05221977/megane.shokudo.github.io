@@ -1,0 +1,70 @@
+Anidación y & para pseudoclases
+****************************
+
+Ejemplo 1:
+
+.sass (lo que corresponda según mi html)
+{
+background color: blue;
+h2 {color: red}
+}
+
+Ejemplo 2:
+
+. header__menu {
+
+display: flex;
+flex-direction: column;
+align-item: center;
+gap: 10px;
+
+li a:hover {
+color: yellow;
+
+&:hover {
+color: orange;
+}
+}
+
+Variables
+********
+
+se usan para cosa repetitivas, por ejemplo paleta de colores
+ejemplo de variable
+
+$color-negro: negro
+$color-rojo: rojo
+
+uso $color-negro en styles.scss
+
+ $fuente-principal: roboto sans serif
+
+pantalla-m: 768px;
+pantalla-l:  992px
+pantalla-xl: 1200x
+
+$espacio-grande: 50px
+$espacio-chico: 20px  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mixins
+extends
+archivos partials

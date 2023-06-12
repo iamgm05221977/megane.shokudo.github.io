@@ -1,0 +1,15 @@
+footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+    
+    .list-unstyled {
+
+        color: $color-primario;
+        text-decoration: none;
+        font-size: 15px;
+    }
+}

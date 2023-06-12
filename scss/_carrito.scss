@@ -1,0 +1,67 @@
+.shopping-cart {
+
+    width: 450px;
+    height: 450px;
+    padding: 5%;
+    box-shadow: 5px 5px 5px 5px #0000001a;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+
+    font-family: 'Poppins', sans-serif;
+    height: 5en;
+    border-bottom: 2px solid #292a2b;
+    border-top: 2px solid;
+    padding: 0px 30px;
+    color: #46494d;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.quantity {
+    padding-left: 5em;
+}
+
+.quantity input {
+
+    display: inline;
+    border: none;
+    text-align: center;
+    width: 2em;
+    font-size: 1em;
+    color: #43484D;
+    font-weight: 600;
+}
+
+.containerpagar {
+    padding-bottom: 60px;
+}
+
+@media screen and (min-width: 390px) {
+    .col bg-dark text-light lh-lg {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .col lh-lg {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .shopping-cart {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .containerpagar {
+        padding: 2%;
+    }
+}

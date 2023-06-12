@@ -1,0 +1,41 @@
+/*Link Video Youtube*/
+
+.videoWrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50em;
+}
+
+.videoWrapper iframe {
+    width: 100em;
+    height: 50em;
+}
+
+@media screen and (min-width: 480) {
+    .videoWrapper {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+
+    }
+}
+
+/*Carrousel*/
+
+@media (min-aspect-ratio: 8/5) {
+
+    #carouselExampleFade {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .carousel-item img {
+        height: 550px;
+    }
+}

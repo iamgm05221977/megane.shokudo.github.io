@@ -1,0 +1,35 @@
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.column3 {
+    flex: 25%;
+    padding: 20px;
+    justify-content: center;
+}
+
+.giframen {
+
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding: 5%;
+
+}
+
+@media screen and (max-width: 992px) {
+    .column3 {
+        flex: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .row3 {
+        flex-direction: column;
+    }
+}
+

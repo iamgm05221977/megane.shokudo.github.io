@@ -1,0 +1,55 @@
+.column1 {
+
+    float: left;
+    width: 25%;
+    text-align: justify;
+    justify-content: center;
+    border-radius: 2%;
+    line-height: 30px;
+    margin: 2%;
+    overflow: auto;
+
+}
+
+.row1:after {
+
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 1080px) {
+    .column1 {
+        width: 80%;
+        margin: 5%;
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .column1 {
+        width: 30%;
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .column1 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ramenpic {
+        width: 100%;
+    }
+}

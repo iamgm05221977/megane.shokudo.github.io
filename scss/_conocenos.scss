@@ -1,0 +1,49 @@
+.column {
+
+    float: left;
+    width: 50%;
+    padding: $padding-s;
+    text-align: justify;
+    justify-content: center;
+    border-radius: 5%;
+    line-height: 30px;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+
+    text-align: justify;
+    justify-content: center;
+    padding-bottom: $padding-s;
+
+}
+
+@media screen and (min-width: 1440px) {
+    .column {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .column {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .takao {
+        width: 100%;
+    }
+}

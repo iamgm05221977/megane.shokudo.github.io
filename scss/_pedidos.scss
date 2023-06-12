@@ -1,0 +1,126 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 25em;
+    margin: 0 auto;
+
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    padding-top: 2em;
+}
+
+
+input[type="submit"] {
+
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.2em;
+    border-radius: 0.5em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+input[type="submit"]:hover {
+    background-color: #3acdcc;
+}
+
+
+.container {
+
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+input:invalid+span:after {
+
+    content: 'horario inválido';
+    background-color: red;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-radius: 1em;
+    border: none;
+    padding: 0.5em;
+    align-items: center;
+}
+
+input:valid+span:after {
+
+    content: 'horario válido';
+    background-color: #4CAF50;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-radius: 1em;
+    border: none;
+    padding: 0.5em;
+    align-items: center;
+}
+
+#cantidad {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5em;
+
+}
+
+.opcionramenkit {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#fecha {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    margin-top: 2em;
+    padding: 0.5em;
+
+}
+
+#opciones {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-top: 2em;
+    cursor: pointer;
+    padding: 0.5em;
+}
+
+
+#hora {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    margin-top: 2em;
+    cursor: pointer;
+    border-radius: 1em;
+    padding: 0.5em;
+
+}
+
+
+input[value="Pagar"]:hover {
+    background-color: #3acdcc;
+
+}
+
+@media screen and (min-width: 390px) {
+    input {
+        width: 50%;
+    }
+}
